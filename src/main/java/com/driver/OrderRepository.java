@@ -92,7 +92,7 @@ public class OrderRepository {
                 all.remove(s);
             }
         }
-        return allOrd.size();
+        return all.size();
     }
 
     //12. Delete a partner and the corresponding orders should be unassigned
