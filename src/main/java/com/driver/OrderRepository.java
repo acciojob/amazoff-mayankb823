@@ -130,6 +130,8 @@ public class OrderRepository {
 
         return a+b;
     }
-
+public void time(){
+        System.out.print();
+}
 
 }
