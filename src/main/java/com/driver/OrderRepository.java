@@ -121,7 +121,9 @@ public class OrderRepository {
     }
     public String timeinhours(int count){
         String t="";
-        t="count/60"+":"+"count%60";
+        int a=count/60;
+        int b=count%60;
+        t="a"+":"+"b";
         return t;
     }
     public int convert(String time){
@@ -130,8 +132,6 @@ public class OrderRepository {
 
         return a+b;
     }
-public void time(){
-        System.out.print();
-}
+
 
 }
